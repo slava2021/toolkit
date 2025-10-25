@@ -51,7 +51,7 @@ const CardsList = ({ data, totalResults }) => {
                       className={styles.button}
                       to={`/card/${film.imdbID}`}
                     >
-                      Подробнее
+                      More
                     </NavLink>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const CardsList = ({ data, totalResults }) => {
       </div>
       {totalResults && (
         <p>
-          Всего найдено: <b>{totalResults}</b>
+          Total: <b>{totalResults}</b>
         </p>
       )}
     </>

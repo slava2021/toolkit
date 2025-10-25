@@ -11,7 +11,7 @@ const Menu = () => {
           isActive ? "btn btn-secondary active" : "btn btn-secondary"
         }
       >
-        Поиск
+        Search
       </NavLink>
       <NavLink
         to="/favorites"
@@ -19,7 +19,7 @@ const Menu = () => {
           isActive ? "btn btn-secondary active" : "btn btn-secondary"
         }
       >
-        Избранное
+        Favorites
       </NavLink>
     </ButtonGroup>
   );

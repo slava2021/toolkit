@@ -20,10 +20,10 @@ export default function FavoritesPage() {
       {favorites.length !== 0 ? (
         <>
           <CardsList data={favorites} />
-          <NavLink to="/">На главную</NavLink>
+          <NavLink to="/">Main page</NavLink>
         </>
       ) : (
-        <div>В избранном нет фильмов</div>
+        <div>No items</div>
       )}
     </>
   );
